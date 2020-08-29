@@ -1,0 +1,42 @@
+@font-face {
+	font-family: 'GothamPro';
+	src: url('./Font/GothamPro.eot') format('eot'),
+	     url('./Font/GothamPro.otf')  format('opentype'),
+	     url('./Font/GothamPro.woff') format('woff'),
+	     url('./Font/GothamPro.ttf')  format('truetype'),
+	     url('./Font/GothamPro.svg#GothamPro') format('svg');
+}
+
+
+.main {
+    width: 1024px;
+    height: 768px;
+}
+
+.image {
+    width: 1024px;
+    height: 768px;
+}
+
+.boxForImage {
+    position: absolute;
+}
+
+.text {
+    position: absolute;
+    margin: auto;
+    width: 1024px;
+    height: 768px;
+    text-align: center;
+    display: flex;
+}
+
+.boxText {
+    font-weight: 100;
+    margin: 235px 0px 0px 280px;
+    font-weight: 100;
+    display: flex;
+    color: #fff;
+    font-size: 47.757px;
+    font-family: "GothamPro";
+}

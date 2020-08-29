@@ -1,0 +1,212 @@
+@font-face {
+	font-family: 'GothamPro';
+	src: url('../thirdSlide/Font/GothamPro.eot') format('eot'),
+	     url('../thirdSlide/Font/GothamPro.otf')  format('opentype'),
+	     url('../thirdSlide/Font/GothamPro.woff') format('woff'),
+	     url('../thirdSlide/Font/GothamPro.ttf')  format('truetype'),
+	     url('../thirdSlide/Font/GothamPro.svg#GothamPro') format('svg');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+
+.swipe {
+    border-color: rgb(209, 234, 255);
+    border-style: solid;
+    opacity: 0.302;
+    position: absolute;
+    left: 147px;
+    top: 600px;
+    width: 730px;
+    background-color: rgb(209, 234, 255);
+    height: 20px;
+    z-index: 220;
+  }
+
+
+.Slider {
+    position: absolute;
+    width: 1024px;
+    height: 768px;
+}
+
+.secondSlide {
+    display: none;
+}
+
+.thirdSlide {
+    display: none;
+}
+
+.main {
+    width: 1024px;
+    height: 768px;
+}
+
+.image1 {
+    width: 1024px;
+    position: absolute;
+    height: 768px;
+    display: flex;
+}
+
+.ice1 {
+    width: 1024px;
+    position: absolute;
+    height: 768px;
+    display: flex;
+    z-index: 2;
+}
+
+.textHeading {
+    font-size: 30px;
+    font-family: "GothamPro";
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-weight: 100;
+}
+
+.textBottom {
+    border: 1px #fff solid;
+    position: absolute;
+    color: #fff;
+    font-size: 26px;
+    padding: 13px;
+    font-family: "GothamPro";
+    font-weight: 100;
+    margin-top: 423px;
+    margin-left: 447px;
+}
+
+ .firstSlide {
+    position: inherit;
+    width: 1024px;
+    height: 768px;
+}
+
+.secondSlide {
+    position: inherit;
+    width: 1024px;
+    height: 768px;
+}
+
+.thirdSlide {
+    position: inherit;
+    width: 1024px;
+    height: 768px;
+}
+
+.circle {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-top: 417px;
+    margin-left: -261px;
+    opacity: 0.25;
+}
+
+.circle1 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-top: 420px;
+    margin-left: 283px;
+    opacity: 0.25;
+}
+
+.circle2 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-top: 189px;
+    margin-left: 14px;
+    opacity: 0.25;
+}
+
+.arrow1 {
+    position: absolute;
+    width: 11%;
+    margin-top: 452px;
+    margin-left: -179px;
+}
+.arrow2{
+    position: absolute;
+    margin-top: 252px;
+    margin-left: -192px;
+    width: 20%;
+}
+.arrow3 {
+    position: absolute;
+    margin-left: 49px;
+    margin-top: 275px;
+}
+.arrow4 {
+    margin-left: 94px;
+    margin-top: 254px;
+    width: 20%;
+    position: absolute;
+}
+.arrow5 {
+    position: absolute;
+    margin-top: 452px;
+    margin-left: 169px;
+    width: 11%;
+}
+
+.text1 {
+    position: absolute;
+    margin-top: 93px;
+    padding: 0px;
+    margin-left: 515px;
+}
+
+.one {
+    font-family: 'Lato', sans-serif;
+    font-size: 44px;
+    color: #fff;
+    height: 53px;
+    font-weight: 700;
+    display: block;
+}
+
+.boxText1 {
+    color: #fff;
+    font-size: 25px;
+}
+
+.text2 {
+    position: absolute;
+    margin-top: 306px;
+    margin-left: 242px;
+}
+
+.text3 {
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 796px;
+}
+
+.b {
+    font-size: 49px;
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    color: #fff;
+    margin-top: 188px;
+    margin-left: 555px;
+}
+
+.muscle {
+    position: absolute;
+    margin-top: 432px;
+    margin-left: -257px;
+    width: 7%;
+}
+
+.pecen {
+    position: absolute;
+    margin-top: 435px;
+    margin-left: 291px;
+    width: 6%;
+}
